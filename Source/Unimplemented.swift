@@ -5,6 +5,7 @@ func unimplementedFunction(file: String = #file, function: String = #function, l
     fatalError("Unimplemented function \(function) in \(file):\(line)")
 }
 
+/*
 extension Observable {
     static func unimplemented(file: String = #file, function: String = #function, line: Int = #line)
         -> Observable<Element> {
@@ -12,3 +13,4 @@ extension Observable {
         return Observable<Element>.empty()
     }
 }
+*/
